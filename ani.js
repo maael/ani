@@ -8,9 +8,7 @@ program
 program
   .command('start')
   .description('start ani')
-  .action(function () {
-    console.log('Starting ani')
-  })
+  .action(cli.start)
 
 program
   .command('status')
