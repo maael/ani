@@ -4,7 +4,7 @@
   "description": "",
   "main": "ani.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "anime",
@@ -14,9 +14,23 @@
   "author": "Matthew Elphick",
   "license": "MIT",
   "dependencies": {
+    "bunyan": "^1.5.1",
+    "commander": "^2.9.0",
+    "html-entities": "^1.2.0",
+    "moment": "^2.10.6",
+    "nedb": "^1.5.0",
+    "request": "^2.67.0",
+    "webtorrent": "^0.63.4",
+    "xml2js": "^0.4.15"
   },
   "bin": {
     "ani": "ani.js"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "mock-fs": "^3.6.0",
+    "nock": "^3.6.0"
+  }
 }

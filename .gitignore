@@ -31,3 +31,9 @@ config.json
 
 # DB files
 db
+
+# Backup files
+*.bak
+
+# Torrent directory
+torrents
