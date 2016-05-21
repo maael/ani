@@ -4,6 +4,7 @@
   "description": "",
   "main": "ani.js",
   "scripts": {
+    "start": "node process/start.js",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
@@ -14,13 +15,21 @@
   "author": "Matthew Elphick",
   "license": "MIT",
   "dependencies": {
+    "anidb": "0.0.3",
     "bunyan": "^1.5.1",
+    "chalk": "^1.1.1",
+    "cli-table": "^0.3.1",
     "commander": "^2.9.0",
+    "cron": "^1.1.0",
+    "forever-monitor": "^1.7.0",
     "html-entities": "^1.2.0",
+    "inquirer": "^0.11.0",
     "moment": "^2.10.6",
     "nedb": "^1.5.0",
+    "nodemailer": "^1.11.0",
     "request": "^2.67.0",
     "webtorrent": "^0.63.4",
+    "word-wrap": "^1.1.0",
     "xml2js": "^0.4.15"
   },
   "bin": {
